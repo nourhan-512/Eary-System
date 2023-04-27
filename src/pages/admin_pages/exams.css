@@ -1,0 +1,156 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px auto;
+}
+h1{color:antiquewhite; ;text-align: left;padding: 10px;}
+#Content{display:flexbox;}
+
+#postContainer{width:70% ; height:160px;display: block;margin-bottom: 5px;}
+#Post:hover {
+    background-color: rgb(212, 212, 207);
+   
+  }
+
+#Post {
+
+    background-color:rgba(227, 235, 222, 0.693);
+    border-radius: 10px;
+    height:94%;
+     margin: 0 auto;  
+    width: 90%;
+    padding: 10px;  
+  
+    
+}
+#b:hover{background-color:rgba(40, 37, 42, 0.416) ;
+border-radius: 5px;
+padding: 3px}
+
+#b{
+  float: right;
+  border: none;
+  border-radius: 7px;
+  margin-bottom: 4px;
+}
+
+#Form{
+    background-color: antiquewhite;
+    float: right;
+    
+}
+
+
+
+#addpost{
+    float: right;
+    font-size: 20px;
+    padding: 10px;
+    background-color:rgba(141, 137, 154, 0.119);
+    color:#ddd;
+    border-radius: 10px;
+    position:absolute;
+top:16px;
+left:550px;
+
+border-color: rgba(255, 228, 196, 0.298);
+}
+
+
+
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    right: 10px;
+    z-index: 9;
+    top:10px;
+    right:5px;
+    padding: 2px;
+ }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 290px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.084);
+   
+    
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text] {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    background: #f1f1f19d;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:hover, .form-container input[type=password]:hover {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #023422;
+    color: rgba(228, 224, 224, 0.86);
+    width: 98%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: none;
+    cursor: pointer;
+   margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 50px;
+    font-size: 20px;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color:rgb(126, 15, 11);
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 7;
+ 
+  }
+ audio{    width: 300px;
+  height: 30px;
+padding-top: 5px;}
+
+.answer{display:flex;
+
+  width: 75%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  border: none;
+  background: #f1f1f19d;
+  margin-right: 3px;;
+}
+
+  .pr{
+  width:20%;
+  text-align: center;
+  margin-top: 12px;
+}
+  #answers{display: flex;
+  margin-bottom: 4px;}
+  #p{text-align: center;
+  color:#ddd;
+font-size: 20px;}
+  option{background-color: #ddd;
+  border: none;
+margin-top: 20px;}
+
+
+

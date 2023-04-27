@@ -1,0 +1,78 @@
+
+
+
+
+/* Form */
+.sform {
+background-color:  #3d3e3fab;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+width: 350px;
+margin: 0 auto;
+height: 350px;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+}
+
+/* Input fields */
+
+
+#sl {
+display: block;
+font-size: 16px;
+font-weight: bold;
+margin-bottom: 3px;
+color: #6e9cff;
+
+}
+
+#si{
+width: 95%;
+padding: 8px;
+border-radius: 51px;
+border: none;
+background-color: #f2f2f2;
+margin-bottom: 8px;
+font-size: 20px;
+}
+
+#si:hover{background-color: #edb6b66f;}
+
+
+/* Submit button */
+.sformButton {
+background-color: #6e9cffab;
+color:rgb(2, 2, 34);
+width: 40%;
+margin: 0 auto;
+border-radius: 100px;
+padding: 8px 8px;
+font-size: 20px;
+cursor: pointer;
+border: none;
+margin-top: 2px;
+margin-bottom: 4px;
+
+}
+
+/* Submit button on hover */
+.sformButton:hover {
+background-color: rgba(105, 92, 202, 0.925);;
+color: white;
+}
+
+/* Link */
+a {
+color: #6e9cff;
+text-align: center;
+}
+
+a:hover {
+color: #4c6bff;
+}
+
+
+

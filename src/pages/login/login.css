@@ -1,0 +1,147 @@
+/* CSS for the login form 
+
+.login {
+    background-color: #ffffff;
+    border-radius: 51px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  #lo {
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      text-shadow: 2px 2px 2px #cebaba;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #d30d0d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginform {
+    margin-top: 20px;
+  }
+  
+  .input-lbox {
+    margin-bottom: 20px;
+  }
+  
+  #la {
+      display: block;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #2cdaf1;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    border: none;
+    border-radius: 51px;
+    box-shadow: 0px 0px 5px rgba(249, 251, 253, 0.959);
+    font-size: 22px;
+    padding: 10px;
+    width: 95%;
+  }
+  
+  .formButton {
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      text-shadow: 2px 2px 2px #cebaba;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #d30d0d;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  */
+  
+  .login {
+    background-color:  #3d3e3fab;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  
+
+  
+  .loginform {
+    margin-top: 20px;
+  }
+  
+  .input-lbox {
+    margin-bottom: 20px;
+  }
+  
+  #la {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #6e9cff;
+  }
+  
+  #li {
+    border: none;
+    border-radius: 51px;
+    box-shadow: 0px 0px 5px rgba(249, 251, 253, 0.959);
+    font-size: 20px;
+    padding: 6px;
+    width: 95%;
+    margin-bottom: 8px;
+  }
+#li:hover{background-color: #edb6b66f}
+
+  
+  .formButton {
+    background-color: #6e9cffab;
+    color:rgb(2, 2, 34);
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 100px;
+    padding: 8px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 4px;
+  }
+  
+  .formButton:hover {
+    background-color: rgba(105, 92, 202, 0.925);;
+    color: white;
+  }
+  
+  p {
+    margin-top: 20px;
+    text-align: center;
+  }
